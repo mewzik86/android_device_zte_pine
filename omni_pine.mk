@@ -20,14 +20,14 @@ PRODUCT_RELEASE_NAME := pine
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/zte/pine/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := pine
-PRODUCT_NAME := lineage_pine
+PRODUCT_NAME := omni_pine
 PRODUCT_BRAND := ZTE
 PRODUCT_MODEL := ZTE A2020U Pro
 PRODUCT_MANUFACTURER := ZTE

@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pine.mk
+    $(LOCAL_DIR)/omni_pine.mk
