@@ -17,19 +17,19 @@
 # 	
 # 	Please maintain this if you use this script or any part of it
 #
-FDEVICE="raphael"
+FDEVICE="pine"
 FOX_BUILD_LOG_FILE="foxBuild.log"
 
 if [ -n "$FDEVICE" ]; then
     export PLATFORM_VERSION="16.1.0"
     export PLATFORM_SECURITY_PATCH="2099-12-31"
     export TW_DEFAULT_LANGUAGE="en"
-    export OF_KEEP_FORCED_ENCRYPTION=1
+    #export OF_KEEP_FORCED_ENCRYPTION=1
     export OF_PATCH_AVB20=1
 
     # customize look and features
     export OF_SCREEN_H=2340
-    export OF_STATUS_H=72
+    export OF_STATUS_H=100
     export OF_STATUS_INDENT_LEFT=48
     export OF_STATUS_INDENT_RIGHT=48
     export OF_CLOCK_POS=1
